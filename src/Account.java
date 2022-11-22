@@ -1,4 +1,3 @@
-
 public class Account {
 	private int accountNum;
 	private double balance;
@@ -23,5 +22,16 @@ public class Account {
 	
 	public double getBalance() {
 		return balance;
+	}
+	public void deposit(double money) {
+		balance += money;
+	}
+	public void withdrawal(double money) {
+		if(balance >= money) {
+			balance = balance - money;
+		}
+		else {
+			//gui for not enough money
+		}
 	}
 }
