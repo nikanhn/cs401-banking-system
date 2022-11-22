@@ -31,7 +31,7 @@ public class Account {
 			balance = balance - money;
 		}
 		else {
-			//gui for not enough money
+			throw new IndexOutOfBoundsException();
 		}
 	}
 }
