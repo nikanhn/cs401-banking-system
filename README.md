@@ -3,6 +3,7 @@
 ## TODO NOW
 - connect login gui to client
 - add Register class and add option to client
+- Create Transaction and Type of Account methods on Account class
 
 ## TODO LATER
 - add bank teller logic (file storage, login, teller class)
